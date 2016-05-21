@@ -10,6 +10,8 @@
     <label for="txt_e4">&nbsp;&nbsp;Conception et maintenance de solutions informatiques : </label>   
 </div>
 <div class="partieNotes"></div>
+
+<br>
 <div class="titrePartie">
     <input name="partie_e5" id="partie_e5" class="inputNoteGen" type="text" readonly>
     <label for="partie_e5">&nbsp;&nbsp;E5 : Production et fourniture de services informatiques</label>
@@ -21,6 +23,8 @@
     <label for="txt_e5">&nbsp;&nbsp;Production et fourniture de services informatiques : </label>   
 </div>
 <div class="partieNotes"></div>
+
+<br>
 <div class="titrePartie">
     <input name="partie_e6" id="partie_e6" class="inputNoteGen" type="text" readonly>
     <label for="partie_e6">&nbsp;&nbsp;E6 : Parcours de professionnalisation</label>
