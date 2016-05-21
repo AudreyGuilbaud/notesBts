@@ -15,3 +15,5 @@ $noteanglais = $anglais*2 ;
 $moyenneculture = ($notefrancais + $noteanglais)/4 ;
 
 echo $moyenneculture ;
+
+?>

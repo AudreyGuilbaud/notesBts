@@ -15,3 +15,5 @@ $notealgo = $algo ;
 $moyennemaths = ($notemaths + $notealgo)/3 ;
 
 echo $moyennemaths ;
+
+?>
