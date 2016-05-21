@@ -1,0 +1,28 @@
+.divGeneral{
+    margin-top : 30px ;
+    width : 100% ;
+    height : 300px;
+}
+
+.divMatiere {
+    float : left ;
+    width : 45% ;
+    height : 200px;
+    margin-left : 3% ;
+}
+
+.divTitre {
+    border : solid 1px #E94C3A ;
+    height : 30px;
+    background-color : #E94C3A;
+    color : white ;
+    font-variant: small-caps ;
+    font-size : 24px ;
+    text-align : center ;
+}
+
+.divForm {
+    border : solid 5px #E94C3A ;
+    height : 150px;
+    background-color : white ;
+}
