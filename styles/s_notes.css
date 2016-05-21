@@ -23,8 +23,8 @@
 
 .divForm {
     border : solid 5px #E94C3A ;
-    height : 150px;
     background-color : white ;
+    padding-bottom : 20px ;
 }
 
 .crayon {
@@ -35,6 +35,42 @@
 
 .stylo {
     width : 15% ;
-    margin-top : -30px ;
+    margin-top : -40px ;
     float : left ;
+}
+
+.inputNote {
+    border : solid 1.5px #61636b ;
+    height : 30px ;
+    width : 15%;
+    float : right ;
+    text-align : center ;
+    font-size : 16px ;
+    color : #61636b ;
+    margin-right: 20px ;
+}
+
+.inputNoteGen{
+    border : solid 2px #E94C3A ;
+    height : 29px ;
+    width : 15%;
+    float : right ;
+    font-size : 16px ;
+    color : white ;
+    margin-right: 20px ;
+    background-color: #E94C3A ;
+}
+
+.titrePartie {
+    background-color : #e7e7e7;
+    min-height: 35px ;
+    line-height : 35px ;
+    vertical-align: middle ;
+    font-size: 16px ;
+    font-variant : small-caps ;
+    font-weight: bold ;
+}
+
+.partieNotes {
+    height : 40px ;
 }
