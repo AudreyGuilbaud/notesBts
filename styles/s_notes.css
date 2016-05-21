@@ -74,3 +74,11 @@
 .partieNotes {
     height : 40px ;
 }
+
+.moyennes {
+    color : white ;
+    border : none ;
+    background-color : #E94C3A ;
+    font-size : 24px ;
+    width : 15%;
+}
