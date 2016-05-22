@@ -55,6 +55,44 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+    $('input[name|="txt_francais"], input[name|="txt_anglais"], input[name|="txt_maths"], \n\
+    input[name|="txt_algo"], input[name|="txt_ecodroit"]').change(function () {
+        var francais = $('#txt_francais').val();
+        var anglais = $('#txt_anglais').val();
+        var maths = $('#txt_maths').val();
+        var algo = $('#txt_algo').val();
+        var ecodroit = $('#txt_ecodroit').val();
+        
+        $.ajax({
+            url: "ajax/aj_moyenneMatieresGen.php",
+            type: "POST",
+            data: {francais: francais, anglais : anglais, maths: maths, algo: algo, ecodroit : ecodroit},
+            success: function (data)
+            {
+                $("#moyenne_gen").val(data);
+            }
+        });
+    });
+});
+
+$(document).ready(function () {
+    $('input[name|="txt_e4"], input[name|="txt_e5"], input[name|="txt_e6"]').change(function () {
+        var e4 = $('#txt_e4').val();
+        var e5 = $('#txt_e5').val();
+        var e6 = $('#txt_e6').val();
+        $.ajax({
+            url: "ajax/aj_moyenneMatieresTech.php",
+            type: "POST",
+            data: {e4:e4, e5:e5, e6:e6},
+            success: function (data)
+            {
+                $("#moyenne_tech").val(data);
+            }
+        });
+    });
+});
+
+$(document).ready(function () {
     $('#txt_ecodroit').change(function () {
         var value = $(this).val();
         $("#partie_ecodroit").val(value);
