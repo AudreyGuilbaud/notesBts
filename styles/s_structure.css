@@ -14,3 +14,11 @@ body {
     height : auto;
 }
 
+.divGeneral3 {
+    margin-top : 2% ;
+    width : 100% ;
+    color : white ;
+    font-size : 12px ;
+    font-style: italic ;
+    background-color : #808288 ;
+}
